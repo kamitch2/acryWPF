@@ -1,0 +1,32 @@
+﻿Initial writing of Acry_WPF v0.0.*
+
+	Included the basic functionality of Acry, i.e. importing data from a text file and storing it in memory to be queried by the user.
+
+v0.1.*
+
+	Implemented the 'Enter' key press for submitting acronyms
+	Changed the color from the standard black background with white lettering for main search menu to while with blue lettering
+	
+v0.2.* - April 8 2017
+
+	Major items:
+		Added the "Can't find your acronym?" feature (of submititng a new acronym for usage in the dataset)
+		Added the admin menu via the keyword 'acryadmin' to review and approve acronyms
+		Created the Acry Icon
+		Forced close of splash screen menu when search menu is closed
+		Removed the launch button from the splash screen, force launch of search when dataset is selected
+	
+	Minor changes:
+		Changed the font of the search button on search menu to prevent clipping
+		Added information lines to user to tell when data is being imported (load times can be long over networks)
+
+v0.3.* - April 9 2017
+
+	Bug fixes:
+		Changed the add acronym logic to allow for using the same definition for different acronyms (allowing the acronym or definition to be the same across addition submissions)
+
+	Minor items:
+		Added copyright information to splash screen
+		Changed version display style on splash screen
+		Added RR Logo to search menu	
+	

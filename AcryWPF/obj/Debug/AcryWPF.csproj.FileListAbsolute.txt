@@ -1,0 +1,16 @@
+D:\Code Projects\AcryWPF\AcryWPF\bin\Debug\AcryWPF.exe.config
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\AcryWPF.csprojResolveAssemblyReference.cache
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\App.baml
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\App.g.cs
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\AcryWPF_MarkupCompile.cache
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\AcryWPF.g.resources
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\AcryWPF.Properties.Resources.resources
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\AcryWPF.csproj.GenerateResource.Cache
+D:\Code Projects\AcryWPF\AcryWPF\bin\Debug\AcryWPF.exe
+D:\Code Projects\AcryWPF\AcryWPF\bin\Debug\AcryWPF.pdb
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\AcryWPF.exe
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\AcryWPF.pdb
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\FrontMenu.baml
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\FrontMenu.g.cs
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\SearchWindow.baml
+D:\Code Projects\AcryWPF\AcryWPF\obj\Debug\SearchWindow.g.cs

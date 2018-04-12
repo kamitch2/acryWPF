@@ -1,0 +1,44 @@
+﻿<Window x:Class="AcryWPF.UpdateDatabaseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Acry Admin" Height="300" Width="500" Closing="Window_Closing"  Icon="Pictures\icon.png" >
+    <Grid Background="{StaticResource ResourceKey=SchBckgndColor}" >
+        <Viewbox Stretch="Fill" >
+            <ContentPresenter>
+                <ContentPresenter.Content>
+                    <Grid x:Name="TextBlockContainer">
+
+                        <Grid.Resources>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="FontSize" Value="16"/>
+                                <Setter Property="Margin" Value="5" />
+                            </Style>
+                        </Grid.Resources>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10px" />
+                            <ColumnDefinition Width="150px" />
+                            <ColumnDefinition Width="200px" />
+                            <ColumnDefinition Width="60px" />
+                            <ColumnDefinition Width="10px" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10" />
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="60" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="10" />
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.ColumnSpan="1" Grid.Column="1" Grid.Row="1" Grid.RowSpan="1" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Acronym" Foreground="{StaticResource ResourceKey=SchTxtColor}" />
+                        <TextBlock Name="UsrInptAcrTxtBox" Grid.Row="2" Grid.Column="1" FontSize="9" Height="20" Margin="10,10,10,10" ></TextBlock>
+                        <TextBlock Grid.ColumnSpan="1" Grid.Column="2" Grid.Row="1" Grid.RowSpan="1" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Definition" Foreground="{StaticResource ResourceKey=SchTxtColor}"/>
+                        <TextBlock Name="UsrInptDefTxtBox" Grid.Row="2" Grid.Column="2" FontSize="9" Height="20" Margin="10,10,10,10" ></TextBlock>
+                        <Button Name="AddBttn" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="20" FontSize="7" IsEnabled="True" Height="20" Click="AddBttn_Click">Add</Button>
+                        <Button Name="CancelBttn" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="1" HorizontalAlignment="Right" VerticalAlignment="Center" Width="30" FontSize="7" IsEnabled="True" Height="20" Click="CancelBttn_Click">Reject</Button>
+                        <TextBlock Name="SystemMessage" Grid.ColumnSpan="3" Grid.Column="1" Grid.Row="3" Grid.RowSpan="1" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Herp derp :)" Foreground="{StaticResource ResourceKey=SchTxtColor}" />
+                    </Grid>
+                </ContentPresenter.Content>
+            </ContentPresenter>
+        </Viewbox>
+    </Grid>
+</Window>

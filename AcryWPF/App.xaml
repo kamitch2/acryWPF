@@ -1,0 +1,11 @@
+﻿<Application x:Class="AcryWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="FrontMenu.xaml">
+    <Application.Resources>
+        <Brush x:Key="TxtColor">White</Brush>
+        <Brush x:Key="BckgndColor">Black</Brush>
+        <Brush x:Key="SchBckgndColor">White</Brush>
+        <Brush x:Key="SchTxtColor">Navy</Brush>
+    </Application.Resources>
+</Application>

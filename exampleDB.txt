@@ -1,0 +1,12 @@
+AcryDataFilev0.0
+
+<Data>
+APPL
+Apple
+CS
+Computer Science
+UI
+University of Illinois;University of Indiana
+
+TTY
+Thank The Yodlers
